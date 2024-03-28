@@ -1,0 +1,266 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'General Sans';
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#crsr_flw
+{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999999;
+}
+.bounding
+{
+    width: fit-content; 
+    overflow: hidden;
+}
+.bounding .boundingelem
+{
+    transform: translateY(100%);
+}
+#main
+{
+    width: 100%;
+    background-color: black;
+}
+#hero
+{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+#nav
+{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+#nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading
+{
+    margin-top: 90px;
+}
+#heading h1
+{
+    font-size: 10vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: 0.6;
+    margin-left: 50px;
+}
+#heading #secondh1
+{
+    margin-left: 200px;
+}
+.blocktext
+{
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.blocktext h5
+{
+    text-align: right !important;
+    text-transform: uppercase;
+    size: 20px;
+}
+#rightblock
+{
+    margin-top: 100px;
+    /* padding-top: 100px; */
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+#rightblock h5
+{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+#herofooter
+{
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+#herofooter a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+#herofooter .circle
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#herofooter #iconset
+{
+    color: black;
+    display: flex;
+    gap: 5px;
+}
+#scnd
+{
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    /* color: white; */
+    padding-top: 200px;
+    padding-right: 6vw;
+    padding-left: 3vw;
+}
+.elem
+{
+    position: relative;
+    border-top: 1px solid white;
+    padding: 2.5vw 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.elem h1
+{
+    text-transform: uppercase;
+    font-size: 7.3vw;
+    opacity: 0.7;
+}
+.lst-elem
+{
+    border-bottom: 1px solid white;
+}
+.elem img
+{
+    opacity: 0;
+    
+        pointer-events: none;
+        height: 140%; 
+        transform: translate(-50%, -50%);
+   
+    position: absolute;
+    z-index: 99;
+}
+#about
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2vw 5vw;
+    padding-left: 40vw;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#about img
+{
+    width: 240px;
+    height: 240px;
+}
+#about-text
+{
+    width: 27rem;
+}
+#about-text h5
+{
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+#about-text p
+{
+    line-height: 1.7;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+#about-text a
+{
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+#left-block
+{
+    background-color: black;
+    color: white;;
+    padding: 120px 30px;
+}
+#left-block h5
+{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#left-block h3
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#footer
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+#footer-left
+{
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+#footer-right
+{
+    display: flex;
+    gap: 50px;
+}
+#footer-right a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+

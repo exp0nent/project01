@@ -1,0 +1,29 @@
+1 . What is Tag ? < > 
+2 . What is alt tag when it is used ?
+
+div is a rectangular box having finite width and zero height
+div height is height of its children .
+
+3 . ID ka name repeat nahi karna hai lekin class ka kar sakte hai .
+
+4 . CSS Boiler Plate
+5 . Understanding Percentage and Pixels
+    ** Percentage apne parent ke respect me hota hai.
+    ** Pixels relatively chhoti values hoti hai.
+
+6 . Margin hota hai do elements ke beech ka space
+7 . Padding andar space banayega 
+
+    ** Flex Box
+    display : flex-box (bigger box ko jo items ko contain kar rha hai)
+8 . Height pe kaam karne ke liye align items .
+9 . Width pe kaam karne ke liye justify content .
+
+------ Project_01 ----------
+
+1.  Ek Device ki full width ko 100 vh kehte hain.
+2.  Font Chori Karne ka Tarekka Jaan Gaya 😁
+3.  What is vw which we uses sometimes to specify font size ?
+4.  width = fit-content se kya matlab hai ?
+5.  About GSAP ?
+6.  Smooth Scrolling laga lete ho ?
